@@ -24,7 +24,7 @@ const AddProductPage = () => {
     });
   };
 
-  return (
+  return (<>
     <Container className="mt-5">
       <h1 className="text-center mb-4">Add New Product</h1>
       <Form onSubmit={handleSubmit}>
@@ -94,6 +94,7 @@ const AddProductPage = () => {
         </Button>
       </Form>
     </Container>
+    </>
   );
 };
 

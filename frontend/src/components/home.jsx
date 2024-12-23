@@ -32,7 +32,7 @@ const HomePage = () => {
       <h1>Products</h1>
       <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
         {products.map((product) => (
-          <Card key={product.id} style={{ width: '18rem' }}>
+          <Card key={product.id} style={{ width: '10rem' }}>
             <Card.Img variant="top" src={product.image} alt={product.name} />
             <Card.Body>
               <Card.Title>{product.name}</Card.Title>
